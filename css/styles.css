@@ -1,0 +1,36 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+body{
+    /* opacity: .6; */
+    background-color: rgb(3, 3, 37);
+    color: rgb(250, 248, 248);
+    font-size: large;
+}
+.bg_img{
+    background-image: url("../img/prevoir-meteo.jpeg")  !important; ;
+    background-size:no-repeat cover !important;
+
+}
+form input{
+   border: 0;
+}
+form input::placeholder{
+    background-color: transparent !important;
+    color:grey;
+    padding: 3px 5px;
+    
+    
+}
+.col_size{
+    width: auto;
+    height: auto;
+}
+.date_style{
+    opacity: .5;
+}
